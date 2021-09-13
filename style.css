@@ -144,7 +144,7 @@ h1{
   text-align: center;
 }
 
-button{
+.tombol button{
   padding: 10px;
   border-radius: 12px;
   cursor: pointer;
@@ -156,12 +156,11 @@ button{
   font-weight: 900;
 }
 
-button:hover{
+.tombol button:hover{
   box-shadow: 0 0 120px #0f0;
   background-color: #0f0;
   color: #000;
 }
-
 
 .footer{
   font-size: 0.9rem;
@@ -172,11 +171,12 @@ button:hover{
   width:100%;
 }
 
-#youtube-audio{
+.anu{
+  color: white;
   position: fixed;
   bottom:60px;
   left:0;
   transform: translate(50%,50%) scale(0.3);
   filter: invert(59%) sepia(77%) saturate(4041%) hue-rotate(87deg) brightness(121%) contrast(125%);
   z-index: 99;
-} 
+}
