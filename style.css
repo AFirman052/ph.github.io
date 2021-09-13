@@ -162,15 +162,6 @@ button:hover{
   color: #000;
 }
 
-.footer{
-  font-size: 0.9rem;
-  color: #0f0;
-  margin-top: 30px;
-  margin-bottom: -50px;
-  text-align: center;
-  width:100%;
-}
-
 #youtube-audio{
   background-color: white;
   position: fixed;
@@ -180,3 +171,13 @@ button:hover{
   filter: invert(59%) sepia(77%) saturate(4041%) hue-rotate(87deg) brightness(121%) contrast(125%);
   z-index: 99;
 } 
+
+.footer{
+  font-size: 0.9rem;
+  color: #0f0;
+  margin-top: 30px;
+  margin-bottom: -50px;
+  text-align: center;
+  width:100%;
+}
+
