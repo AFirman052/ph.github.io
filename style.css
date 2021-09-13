@@ -176,6 +176,6 @@ button:hover{
   bottom:60px;
   left:0;
   transform: translate(50%,50%) scale(0.3);
-  filter: invert(59%) sepia(77%) saturate(4041%) hue-rotate(87deg) brightness(121%) contrast(125%);
+/*   filter: invert(59%) sepia(77%) saturate(4041%) hue-rotate(87deg) brightness(121%) contrast(125%); */
   z-index: 99;
 }
