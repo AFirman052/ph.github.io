@@ -7,12 +7,14 @@ function kohjinping(){
   const total = ((Hutang / Jangka_waktu) + jinping);
   const totalAkhir = total.toFixed(2);
   
-  // jika jumlah angka nya panjang, maka kecilkan font
-   if(totalAkhir.toString().length > 11){
-       lay_total.style.fontSize = "13px"; 
+   if(totalAkhir.toString().length > 9){
+       lay_total.style.fontSize = "14px"; 
    } else {
-       lay_total.style.fontSize = "21px";
+       lay_total.style.fontSize = "18px";
    }
 
-  lay_total.innerHTML = 'Total Hutang : Rp. ' + totalAkhir;
+  lay_total.innerHTML = 'Cicilan : Rp. ' + totalAkhir + ' ' + 'Perbulan';
+  
+
 } 
+  
